@@ -52,25 +52,7 @@ class MagicHero(Superhero):
         return super().fight_villain(villain_power)
 
 
-# Demonstration
-if __name__ == "__main__":
-    print("=== Superhero Showcase ===")
-    
-    iron_man = TechHero("Iron Man", "Larry Ngei", 85, "Repulsor Beams")
-    dr_mutua = MagicHero("Doctor Mutua", "Stephen Mutua", 90, "Crimson Bands of Cyttorak")
-    
-    print(iron_man)
-    print(dr_mutua)
-    
-    print("\n" + iron_man.use_gadget())
-    print(dr_mutua.cast_spell())
-    
-    print("\n" + iron_man.fight_villain(95))
-    print(dr_mutua.fight_villain(100))
-    
-    print("\nSecret Identities:")
-    print(iron_man.reveal_secret_identity())
-    print(dr_mutua.reveal_secret_identity())
+
     
   #Activity two
 
